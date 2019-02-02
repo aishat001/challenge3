@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    background: slategrey;
+
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .body {
+    border: 5px solid rgb(223, 229, 235);
+    padding: 15px;
+    height: 38.5rem;
+  }
+  div > p {
+    color: grey;
+    margin-bottom: 0px;
+    font-size: 1em;
+  }
+  div.body > p.trip {
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 1em;
+  }
+  div > p.smaller {
+    color: rgb(177, 169, 169);
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 13px;
+  }
+  div > header > h1 {
+    font-weight: 1000;
+    margin-bottom: 0px;
+    width: 250px;
+    margin-top: 0px;
+  }
+  i.fa-angle-down {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  #smallb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .round {
+    width: 40px;
+    margin-top: 10px;
+  }
+  div.round > img {
+    width: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .image {
+    width: 90%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .large {
+    width: 66%;
+  }
+  .x-large {
+    width: 100%;
+  }
+  .normal {
+    width: 32%;
+  }
+  .normal1 {
+    width: 32%;
+  }
+  
+  i {
+    color: slategrey;
+  }
+  .icon {
+    background-color: rgb(186, 201, 216);
+    text-align: end;
+    padding: 5px;
+  }
+  .f-icon {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 650px;
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+    margin-left: 20px;
+  }
+  .footer {
+    height: 50px;
+    top: 638px;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .footer:after{
+    content:'';
+    position:absolute;
+    bottom: 50%;
+    width:60%;
+    height:1000px;
+    left: 70px;
+    right: 0px;
+    border-radius:100%;
+    box-shadow: 0px 300px 0px 300px rgb(57, 72, 87);
+}
+.circle {
+  position: absolute;
+  top:605px;
+  right: 136px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffb300;
+}
+i.fa-reply {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+i.fa-pencil {
+  color: black;
+  font-size: 17px;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+
+  /*frame3*/
+  div.subt {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+  .screen3 {
+    display: block;
+    border: 5px solid rgb(223, 229, 235);
+    height: 39.5rem;
+  }
+.body3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:10px;
+  height: 6rem;
+  border-bottom: 5px solid rgb(223, 229, 235);
+}
+  div.scrin3 > div.note3 > h3 {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-size: 0.85em;
+  }
+  div.scrin3 > div.note3 > div.alone > p {
+    margin-top: -3px;
+    font-size: 0.8em;
+  }
+  .bodyt {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:10px;
+  height: 6rem;
+  border-bottom: 5px solid rgb(223, 229, 235);
+  }
+  .bodyl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    height: 8.5rem;
+    border-bottom: 5px solid rgb(223, 229, 235);
+    }
+
+  .note3 {
+    top: 0px;
+    margin-top: 0px;
+  }
+  .note3 > p {
+    font-size: 0.8rem;
+  }
+div.note3 > h3 {
+  margin: 0px;
+}
+  div.subt > p {
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+  /*frame4*/
+  div.body3.scrin4 {
+    height: 4.5rem;
+  }
+  div.bodyt.scrin4 {
+    height: 4.5rem;
+  }
+  .alone > a {
+    margin-top: -5px;
+  }
+  .alone > .para {
+    font-size: 0.85em;
+    color: rgb(70, 69, 69);
+  }
+  .straight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .bodyb {
+    border-bottom: 5px solid rgb(223, 229, 235);
+    padding:10px;
+    height: 14rem;
+  }
+  div.scrin4 > div.note3 > p {
+    margin-top: 4px;
+  }
+  div.scrin4 > div.note3 > div.straight > div > p {
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  div.scrin4 > div.note3 > div.straight > div > h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 0.85em;
+  }
+  div.scrin4 > div.note3 > div.straight > div > div.alone > p {
+    font-size: 0.8em;
+    margin-top:3px;
+    margin-bottom: 5px;
+  }
+
+  .images3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+    .bodys {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    border-bottom: 5px solid rgb(223, 229, 235);
+    padding:15px;
+    height: 2.5rem;
+    }
+    div.scrin4.last {
+      height: 5rem;
+    }
+    div.round > .imglast {
+      margin-top: 0px;
+    }
+    div.round {
+      margin-top: 0px;
+    }
+
+  /*general*/
+  .frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  .frame {
+    position: relative;
+    width: 22rem;
+    height: 43rem;
+    background: #f7f7f7;
+    box-shadow:0 4px 7px 0 rgba(0,0,0,0.2);
+    margin: 4rem auto;
+  }
+  
+  .frame:before {
+    content: '';
+    width: 25rem;
+    height: 52rem;
+    left: -1rem;
+    top: -1rem;
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
+    border-radius: 1rem;
+    background: slategrey;
+  }
